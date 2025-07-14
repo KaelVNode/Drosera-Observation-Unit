@@ -29,13 +29,18 @@ Touch this contract and you’re observed via `shouldRespond()`.
 
 ---
 
-## 📂 Repository Structure  
-- `contracts/DroseraObservationUnit.sol`  
-- `README.md`  
-- `LICENSE`  
-- `CONTRIBUTING.md`  
-- `DEPLOYMENT_PROOF.md`
+## 📂 Repository Structure
 
+```bash
+📁 Drosera-Observation-Unit/
+├── contracts/
+│   └── DroseraObservationUnit.sol      # Core smart contract
+├── CONTRIBUTING.md                     # Contribution guidelines
+├── DEPLOYMENT_PROOF.md                 # Deployment verification info
+├── LICENSE                             # MIT License
+└── README.md                           # Project documentation
+
+````
 ---
 
 ## 📦 Deploy Script (optional)  
