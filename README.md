@@ -34,14 +34,14 @@ Touch this contract and you’re observed via `shouldRespond()`.
 ```bash
 📁 Drosera-Observation-Unit/
 ├── contracts/
-│   └── DroseraObservationUnit.sol         # Smart contract utama
+│   └── DroseraObservationUnit.sol       # Main smart contract
 ├── scripts/
-│   └── deploy.js                          # (Opsional) Script untuk deployment via Hardhat
-├── DEPLOYMENT_PROOF.md                    # Bukti dan rincian deployment
-├── CONTRIBUTING.md                        # Panduan kontribusi untuk proyek
-├── LICENSE                                # Lisensi proyek (MIT)
-└── README.md                              # Dokumentasi utama
-
+│   ├── deploy.js                        # (Optional) Deployment script using Hardhat
+│   └── hardhat.config.js                # Hardhat network & compiler configuration
+├── DEPLOYMENT_PROOF.md                 # Deployment proof and metadata
+├── CONTRIBUTING.md                     # Contribution guidelines for this project
+├── LICENSE                             # Project license (MIT)
+└── README.md                           # Main project documentation
 
 ```
 ---
