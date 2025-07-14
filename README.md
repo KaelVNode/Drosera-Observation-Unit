@@ -29,8 +29,3 @@ Inspired by Drosera’s silent intelligence.
 - ✅ Deployed on Hoodi
 - ✅ Passed dryrun
 - ✅ shouldRespond == true
-
----
-
-### 🪪 Role Applying For:
-@Sergeant
