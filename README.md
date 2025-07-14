@@ -60,8 +60,15 @@ Ensure you have `Node.js` and `npm` installed. Then, install dependencies:
 ```bash
 npm install --save-dev hardhat
 npm install @nomiclabs/hardhat-ethers ethers
+
 ```
 
+### ⚙️ Deployment
+Use the following command to deploy (adjust hoodiTestnet to match your config):
+
+```bash
+npx hardhat run scripts/deploy.js --network hoodiTestnet
+```
 ---
 
 ## ⚠️ License  
