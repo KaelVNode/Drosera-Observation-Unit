@@ -21,7 +21,7 @@ Inspired by Drosera’s silent intelligence.
 - Contract Address:  
   `0xd9145CCE52D386f254917e481eB44e9943F39138`
 
-- Tweet: [https://x.com/YOURTWEET](https://x.com/YOURTWEET)
+- 🔗 [Tweet: Deployment confirmation](https://x.com/Kaelvin21/status/1944729041946431923)
 
 ---
 
