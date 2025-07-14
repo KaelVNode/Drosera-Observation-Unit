@@ -44,5 +44,20 @@ You can easily add one by creating `scripts/deploy.js` with Hardhat or Ethers.js
 
 ---
 
+## 🚀 Deployment via Hardhat
+
+To deploy the `DroseraObservationUnit` smart contract using Hardhat and Ethers.js, follow these steps:
+
+### 🛠️ Prerequisites
+
+Ensure you have `Node.js` and `npm` installed. Then, install dependencies:
+
+```bash
+npm install --save-dev hardhat
+npm install @nomiclabs/hardhat-ethers ethers
+```
+
+---
+
 ## ⚠️ License  
 MIT License — see [LICENSE](LICENSE) for details.
