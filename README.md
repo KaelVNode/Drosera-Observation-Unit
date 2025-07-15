@@ -25,7 +25,7 @@ Touch this contract and you’re observed via `shouldRespond()`.
 ## 🔍 Details  
 - **Contract Address:** [0xd9145C...](https://eth-hoodi.blockscout.com/address/0xd9145CCE52D386f254917e481eB44e9943F39138)  
 - **Function:** `shouldRespond()`  
-- **Tweet:** [Deployment thread](https://x.com/Kaelvin21/status/1944736912654450959)
+- **Tweet:** [Deployment thread](https://x.com/Kaelvin21/status/1945037342818845002)
 
 ---
 
