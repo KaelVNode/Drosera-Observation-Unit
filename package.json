@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.1"
+  },
+  "name": "drosera-observation-unit",
+  "description": "![Remix](https://img.shields.io/badge/Built%20with-Remix-%23F26D00?logo=ethereum) ![Testnet](https://img.shields.io/badge/Deployed%20on-Hoodi%20Testnet-blue) ![Status](https://img.shields.io/badge/shouldRespond-true-brightgreen)",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
