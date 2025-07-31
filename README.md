@@ -63,8 +63,14 @@ npm install @nomicfoundation/hardhat-toolbox dotenv ethers
 Configure your `.env`:
 
 ```env
-PRIVATE_KEY=your_wallet_private_key
+# Rename this file to .env and fill in your actual values
+
+# Your private key without 0x prefix
+PRIVATE_KEY=your_private_key_here
+
+# Hoodi testnet RPC endpoint
 HOODI_RPC_URL=https://rpc.hoodi.xyz
+
 ```
 
 ### ▶️ Deploy with Hardhat
