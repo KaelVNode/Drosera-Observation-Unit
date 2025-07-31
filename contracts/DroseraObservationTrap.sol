@@ -8,6 +8,9 @@ contract DroseraObservationTrap is ITrap {
 
     event Observed(address indexed observer);
 
+    constructor() {}
+
+    // User "menyentuh" kontrak untuk terekam
     function observe() external {
         observations.push(msg.sender);
         emit Observed(msg.sender);
@@ -17,6 +20,7 @@ contract DroseraObservationTrap is ITrap {
         return observations;
     }
 
+    // Implementasi ITrap - collect data pengamatan dalam bentuk bytes
     struct CollectOutput {
         uint256 observerCount;
     }
@@ -27,6 +31,7 @@ contract DroseraObservationTrap is ITrap {
         }));
     }
 
+    // Menentukan apakah harus bereaksi berdasarkan data yang dikumpulkan
     function shouldRespond(bytes[] calldata data)
         external
         pure
@@ -34,6 +39,8 @@ contract DroseraObservationTrap is ITrap {
         returns (bool, bytes memory)
     {
         CollectOutput memory latest = abi.decode(data[0], (CollectOutput));
+
+        // Contoh logika trigger: jika ada >=5 observer
         if (latest.observerCount >= 5) {
             return (true, bytes(""));
         }
